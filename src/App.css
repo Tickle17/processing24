@@ -1,0 +1,818 @@
+/*Обнуление*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat2:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat400:wght@400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat2:wght@100&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat3&display=swap');*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+img{
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration:none;
+  color: #182135;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  max-width: 1440px;
+  line-height: 1;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: auto;
+  font-family: Montserrat;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+:focus::-moz-placeholder {
+  color: transparent
+}
+
+:focus:-moz-placeholder {
+  color: transparent
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+li {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+.App{
+  max-width: 1440px;
+}
+/*----------Header----------*/
+.header{
+  width: 1120px;
+  display: flex;
+  margin: auto;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+.phone-buttons{
+  display: flex;
+}
+.phone{
+  width: 200px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.buttons{
+  display: flex;
+}
+.btn-header{
+  width: 176px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #098FCF;
+}
+.btn-header:hover{
+  transform: scale(1.05,1.05);
+}
+.btn-header span{
+  font-size: 13px;
+  color: white;
+
+}
+.mainLogo{
+  height: 44.6875px;
+  width: 220px;
+
+}
+.logoHeader{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+/*----------HeaderMenu----------*/
+.headerMenuBackground{
+  margin-top: 16px;
+  background-size: 100% 100%;
+  background-color: #F9F9F9;
+}
+.headerMenu{
+  width: 1120px;
+  margin: auto;
+}
+.headerMenu ul{
+  display: flex;
+
+  /*width: 1440px;*/
+  height: 60px;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: 15px;
+}
+.headerMenu li{
+  margin-right: 40px;
+}
+/*----------FuelDelivery----------*/
+.fuelDelivery{
+  width: 1120px;
+  margin: auto;
+  margin-top: 90px;
+
+}
+.fuelDelivery-Title{
+  font-size: 48px;
+  margin-bottom: 48px;
+  font-weight: bold;
+}
+.fuelDelivery-mainBlock{
+  height: 289px;
+  box-shadow: 0px 0px 30px -8px rgba(0, 0, 0, 0.1);
+  padding:49px 192px 43px 96px ;
+}
+
+.mainBlockInside-Title{
+  font-weight: bold;
+  font-size: 36px;
+}
+.mainBlockInside-Title span{
+  color: #098FCF;
+}
+
+.mainBlockInside-Info{
+  margin-top: 30px;
+  display: flex;
+}
+
+.mainBlockInside-Info input{
+  width: 273px;
+  height: 46px;
+  border: 0.1px ridge;
+  padding-left: 15px;
+  margin-top: 8px;
+}
+
+.tab{
+  width: 273px;
+  height: 69px;
+  margin-right: 30px;
+}
+.tab span{
+  font-size: 12px;
+  color: black;
+}
+.tab3{
+  width: 258px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #098FCF;
+  margin-top: 27.5px;
+
+}
+.tab2{
+  width: 190px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #098FCF;
+
+}
+
+.tab2 button{
+  background-color: #098FCF;
+  color: white
+}
+
+.tab3 button{
+  background-color: #098FCF;
+  color: white
+}
+.mainBlockInside-CheckBox{
+  display: flex;
+  margin-top: 30px;
+}
+.mainBlockInside-CheckBox input{
+  margin-right: 16px;
+}
+/*----------FuelCOst----------*/
+.fuelCost{
+  width: 1120px;
+  margin: auto;
+}
+.fuelCost-Title{
+  margin-top: 100px;
+  margin-bottom: 48px;
+  font-size: 36px;
+}
+
+.fuelCost_Table{
+
+}
+
+.tableHeader{
+  background-color: #043C77;
+  display: flex;
+  color: white;
+  font-size: 13px;
+  padding: 19px 17px 21px 20px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.tableHeader1{
+  margin-right: 78px;
+}
+.tableHeader2{
+  margin-right: 123px;
+}
+.tableHeader3{
+  margin-right: 180px;
+}
+.tableHeader4{
+  margin-right: 60px;
+}
+.tableDT{
+  height: 239px;
+  display: Flex
+;
+}
+.AI95{
+  height: 382px;
+  display: Flex
+;
+}
+.DTName{
+  background-color: #098FCF;
+  width: 163px;
+  padding: 16px 0px 0px 20px;
+  color: white;
+  font-size: 24px;
+}
+.AI95 .DTName{
+  background-color: #098FCF;
+  height: 382px;
+  padding: 16px 0px 0px 20px;
+  color: white;
+  font-size: 24px;
+}
+.classEuro5{
+  height: 143.5px;
+  border: 0.1px ridge;
+  width: 286px;
+  padding: 16px 0px 0px 30px;
+  font-size: 13px;
+
+}
+.classEEuro4{
+  height: 96px;
+  border: 0.1px ridge;
+  width: 286px;
+  padding: 16px 0px 0px 30px;
+  font-size: 13px;
+
+}
+.AI95 .classEEuro4{
+  height: 95.5px;
+  border: 0.1px ridge;
+  width: 286px;
+  padding: 16px 0px 0px 30px;
+  font-size: 13px;
+
+}
+.DTBrand{
+  width: 671px;
+}
+.brandName-price{
+  height: 20%;
+  display: flex;
+  font-size: 13px;
+  border: 0.1px ridge;
+}
+.brand{
+  width: 118px;
+  padding-top: 16px;
+
+  padding-left: 16px;
+}
+.price{
+  display: flex;
+  /*max-width: 555.39px;*/
+}
+.price1{
+  padding-right: 135px;
+  padding-left: 188px;
+/*padding-bottom: 10px;*/
+  width: 52px;
+
+}
+.price2{
+  padding-right: 135px;
+  padding-left: 45px;
+  width: 52px;
+}
+
+.AI95{
+  margin-top: 20px;
+}
+
+
+
+
+/*----------FuelDeliveryPrice----------*/
+.FuelDeliveryPrice{
+  background-color: #F9F9F9;
+  height: 666px;
+  margin-top: 100px;
+}
+
+.deliveryPriceContainer{
+  width: 1120px;
+  margin: auto;
+}
+
+.delPriceContTitle{
+  padding-top: 100px;
+  font-size: 36px;
+}
+
+.delPriceContMenu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+.contMenuLeftSide{
+  width: 409px;
+  height: 409px;
+}
+
+infoContainer{
+  width: 409px;
+  height: 46px;
+  background-color: white;
+  margin-top: 8px;
+}
+
+.dropdown-btn{
+  padding: 13px 0px 16px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.vectorImg{
+  margin: 8px;
+}
+.dropdown{
+  position: relative;
+  background-color: white;
+}
+
+.dropdown .dropdown-content{
+  z-index: 100;
+  position: absolute;
+  top: 91.5%;
+  left: 85.6%;
+  padding: 0px;
+  background-color: white;
+  border: 0.1px ridge;
+
+}
+.dropdown .dropdown-content .dropdown-item{
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+.dropdown .dropdown-content .dropdown-item:hover{
+  background-color: lightgray;
+}
+.infoContainer1{
+  width: 409px;
+  height: 46px;
+  background-color: white;
+  margin-top: 8px;
+}
+.vectorImg{
+  height: 5px;
+  width: 10px;
+
+}
+.infoContainer input{
+  width: 100%;
+  height: 100%;
+  padding: 13px 11px 16px 15px;
+}
+
+.containerValue{
+  padding: 13px 0px 16px 15px;
+}
+
+.rangeInput {
+  height: 17px;
+  -webkit-appearance: none;
+  width: 100%;
+}
+.rangeInput:focus {
+  outline: none;
+}
+.rangeInput::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #0BB0FF;
+  border-radius: 50px;
+}
+.rangeInput::-webkit-slider-thumb {
+  height: 11px;
+  width: 11px;
+  border-radius: 15px;
+  background: #098FCF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -4.5px;
+}
+.rangeInput:focus::-webkit-slider-runnable-track {
+  background: #0BB0FF;
+}
+.rangeInput::-moz-range-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #0BB0FF;
+  border-radius: 50px;
+}
+.rangeInput::-moz-range-thumb {
+  height: 11px;
+  width: 11px;
+  border-radius: 15px;
+  background: #098FCF;
+  cursor: pointer;
+}
+.rangeInput::-ms-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  animate: 0.2s;
+}
+.rangeInput::-ms-fill-lower {
+  background: #0BB0FF;
+  border-radius: 100px;
+}
+.rangeInput::-ms-fill-upper {
+  background: #0BB0FF;
+  border-radius: 100px;
+}
+.rangeInput::-ms-thumb {
+  height: 11px;
+  width: 11px;
+  border-radius: 15px;
+  background: #098FCF;
+  cursor: pointer;
+}
+.rangeInput:focus::-ms-fill-lower {
+  background: #0BB0FF;
+}
+.rangeInput:focus::-ms-fill-upper {
+  background: #0BB0FF;
+}
+
+.rangeInput{
+  position: relative;
+  padding-top: 15px;
+  top:-15px
+}
+.leftSideInfo{
+  font-size: 12px;
+  font-family: Montserrat;
+  line-height: 15px;
+  margin-bottom: 16px;
+}
+
+
+
+.contMenuRightSide{
+  width: 638px;
+  height: 441px;
+  background-color: white;
+  padding: 40px;
+}
+.rightSideTitle{
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 29.26px;
+}
+.price{
+  padding:16px 0px 16px 0px;
+  border-bottom: 0.1px ridge;
+  justify-content: space-between;
+  font-family: Montserrat2;
+  font-size: 19.5px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+.pricePerOne{
+  padding:16px 0px 16px 0px;
+  border-bottom: 0.1px ridge;
+  justify-content: space-between;
+  font-family: Montserrat400;
+  font-size: 19.5px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.5px;
+
+}
+.strPrice{
+  width: 346px;
+}
+.infoPrice{
+  margin-top: 10px;
+  line-height: 14.6px;
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.total{
+  padding:16px 0px 16px 0px;
+  justify-content: space-between;
+  font-family: Montserrat400;
+  font-size: 19.5px;
+  line-height: 22px;
+  display: flex;
+  letter-spacing: 0.5px;
+}
+/*----------OurWork----------*/
+.ourWork{
+  width: 1122px;
+  height: 486px;
+  margin: auto;
+
+}
+.oWTitle{
+  margin-top: 100px;
+  margin-bottom: 48px;
+  font-family: "Montserrat";
+  font-size: 36px;
+}
+.oWMainInfo{
+  display: flex;
+  color: white;
+
+}
+.mainInfoOW{
+  width: 33%;
+  margin-right: 31px;
+  background-color: #043C77;
+  padding: 30px;
+  height: 394px;
+}
+.miBodyTitle{
+font-size: 21px;
+  font-family: 'Montserrat2';
+
+}
+.miBodyInfo{
+  margin-top: 24px;
+  font-family: 'Montserrat2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 140%;
+
+}
+.miImg{
+  width: 64px;
+  height: 64px;
+}
+.miHeader{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.tbImage{
+  width: 54px;
+  height: 14px;
+  margin-top: 17px;
+}
+/*----------OurAdvantages----------*/
+.OurAdvantages{
+  height: 550px;
+  background-color: #F9F9F9;
+}
+.OurAdvantagesBlock{
+  padding: 80px 0px 72px 0px;
+  width: 1120px;
+  margin: auto;
+  margin-top: 100px;
+
+}
+.advantageTitle{
+  font-size: 36px;
+}
+.topBlocksAdv{
+  display: flex;
+  margin-top: 48px;
+
+}
+.advBlock{
+  display: flex;
+  background-color: white;
+  width: 33%;
+  margin-right: 30px;
+}
+
+.advLogos{
+  width: 48px;
+  height: 48px;
+  margin : 20px 0px 0px 20px ;
+}
+
+.advInfos{
+  padding: 20px 20px 20px 20px;
+
+}
+.advBlockTitle{
+  font-size: 14.5px;
+  margin-bottom: 12px;
+}
+.advBlockInfo{
+  font-family: "Montserrat3";
+  width: 246px;
+  height: 68px;
+  font-size: 14px;
+  line-height: 17px;
+
+}
+.botBlocksAdv{
+  display: flex;
+  margin-top: 30px;
+}
+/*----------SertificateSlider----------*/
+.SertificateSlider{
+  width: 1120px;
+  height: 449px;
+  margin: auto;
+
+}
+.sliderTitle{
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 36px;
+}
+/*----------PartnersSlider----------*/
+.PartnersSlider{
+  width: 1120px;
+  height: 249px;
+  margin: auto;
+}
+.partnerTitle{
+  margin-top: 100px;
+  margin-bottom: 48px;
+  font-size: 36px;
+
+}
+/*----------Reviews----------*/
+.ReviewsSlider{
+  margin-top: 100px;
+  background-color: #F9F9F9;
+  padding: 80px 160px 170px 159px;
+}
+.reviewsSliderMain{
+  width: 1120px;
+  height: 472px;
+  margin: auto;
+}
+/*----------ForAnswers----------*/
+.ForAnswers{
+  margin-top: 80px;
+  background-color: #024482;
+}
+.forAnswersMenu{
+  width: 1120px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 80px;
+  justify-content: center;
+  margin-left: 180px;
+}
+.answerMenu-mainBlock{
+  font-family: Montserrat400;
+
+}
+.mainBlockInfo{
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 30px;
+}
+.mainBlockInsideInfo input{
+  width: 273px;
+  height: 46px;
+  border: 0.1px ridge;
+  padding-left: 15px;
+}
+.mainBlockInsideInfo{
+  display: flex;
+  margin-left: 30px;
+  font-family: Montserrat;
+}
+.mainBlockInsideCheckBox a{
+  color: white;
+  font-size: 15px;
+}
+.mainBlockInsideCheckBox a span{
+  text-decoration: underline;
+}
+/*----------Footer----------*/
+.Footer{
+  height: 170px;
+  background-color: #F9F9F9;
+}
+.footerBlocks{
+  width: 1120px;
+  margin:auto;
+  padding-top: 40px;
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+.footerCompany{
+  font-family: Montserrat2;
+  opacity: 40%;
+  margin-top: 10px;
+  font-size: 16.5px;
+}
+.Blocks1 .ref{
+  font-family: Montserrat1;
+  opacity: 70%;
+  margin-top: 10px;
+  font-size: 16.5px;
+  margin-top: 70px;
+}
+.Blocks2{
+  margin-left: 180px;
+  margin-right: 90px;
+  font-family: Montserrat;
+}
+.Blocks4{
+  font-family: Montserrat;
+  font-weight:bold ;
+  margin-left: 130px;
+}
+.Blocks4Title{
+  font-family: Montserrat400;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.Blocks4Number{
+  color:#069ad5;
+}
