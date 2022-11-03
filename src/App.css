@@ -1,10 +1,6 @@
 /*Обнуление*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat2:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat3&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat400:wght@400&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat2:wght@100&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat3&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -550,7 +546,7 @@ infoContainer{
   padding:16px 0px 16px 0px;
   border-bottom: 0.1px ridge;
   justify-content: space-between;
-  font-family: Montserrat2;
+  font-weight: 100;
   font-size: 19.5px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -559,7 +555,7 @@ infoContainer{
   padding:16px 0px 16px 0px;
   border-bottom: 0.1px ridge;
   justify-content: space-between;
-  font-family: Montserrat400;
+  font-weight: 400;
   font-size: 19.5px;
   line-height: 22px;
   display: flex;
@@ -579,7 +575,7 @@ infoContainer{
 .total{
   padding:16px 0px 16px 0px;
   justify-content: space-between;
-  font-family: Montserrat400;
+  font-weight: 400;
   font-size: 19.5px;
   line-height: 22px;
   display: flex;
@@ -595,7 +591,6 @@ infoContainer{
 .oWTitle{
   margin-top: 100px;
   margin-bottom: 48px;
-  font-family: "Montserrat";
   font-size: 36px;
 }
 .oWMainInfo{
@@ -611,19 +606,27 @@ infoContainer{
   height: 394px;
 }
 .miBodyTitle{
-font-size: 21px;
-  font-family: 'Montserrat2';
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25.6px;
 
 }
 .miBodyInfo{
   margin-top: 24px;
-  font-family: 'Montserrat2';
-  font-style: normal;
   font-weight: 400;
-  font-size: 16.5px;
+  font-size: 16px;
   line-height: 140%;
 
 }
+
+.miBodyInfo2{
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+
+}
+
 .miImg{
   width: 64px;
   height: 64px;
@@ -680,7 +683,6 @@ font-size: 21px;
   margin-bottom: 12px;
 }
 .advBlockInfo{
-  font-family: "Montserrat3";
   width: 246px;
   height: 68px;
   font-size: 14px;
@@ -785,13 +787,13 @@ font-size: 21px;
   line-height: 1.1;
 }
 .footerCompany{
-  font-family: Montserrat2;
+  font-weight: 100;
   opacity: 40%;
   margin-top: 10px;
   font-size: 16.5px;
 }
 .Blocks1 .ref{
-  font-family: Montserrat1;
+  font-weight: 100;
   opacity: 70%;
   margin-top: 10px;
   font-size: 16.5px;
@@ -808,7 +810,7 @@ font-size: 21px;
   margin-left: 130px;
 }
 .Blocks4Title{
-  font-family: Montserrat400;
+  font-weight: 400;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
