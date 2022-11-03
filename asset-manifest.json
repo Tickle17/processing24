@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/processing24/static/css/main.4c06066e.css",
+    "main.js": "/processing24/static/js/main.d1a6fb70.js",
+    "static/media/image 1.svg": "/processing24/static/media/image 1.b4825d065fe23baeb279ca59bb3cde72.svg",
+    "static/media/image 1 (1).svg": "/processing24/static/media/image 1 (1).da0f35569626629d9d3cbab72e80c1df.svg",
+    "static/media/png": "/processing24/static/media/6198d98915fd08971f6e0a7f21f98f28.4725a16dc39fc4707f02.png",
+    "static/media/Rosneft_Logo 1.svg": "/processing24/static/media/Rosneft_Logo 1.9a4a06900079f60d31197c33611a729d.svg",
+    "static/media/certificate.svg": "/processing24/static/media/certificate.a77e74dbee8ad9462e1ea726eccf0d9f.svg",
+    "static/media/LUK_OIL_Logo_kyr 1.svg": "/processing24/static/media/LUK_OIL_Logo_kyr 1.0b9a8573bce7f13787f373584dfdb916.svg",
+    "static/media/click.svg": "/processing24/static/media/click.735cbacae34be62250cbea562e47f2bb.svg",
+    "static/media/gazprom.svg": "/processing24/static/media/gazprom.13adec7db643979f4f1058981eda2998.svg",
+    "static/media/way.svg": "/processing24/static/media/way.66fd26d684093b547f27c71584c35b63.svg",
+    "static/media/phone.svg": "/processing24/static/media/phone.f7434b990cac2abd263e62e2748e28e4.svg",
+    "static/media/place.svg": "/processing24/static/media/place.55756ae2d760fb7f567fe278c20a94c2.svg",
+    "static/media/clock.svg": "/processing24/static/media/clock.3c2e4dfc0e32f8b420d2b8ed9abfabdb.svg",
+    "static/media/shield.svg": "/processing24/static/media/shield.129de68d7f0c934bbfd440ea0bb7e06b.svg",
+    "static/media/Tatneft-Logo 1.svg": "/processing24/static/media/Tatneft-Logo 1.dfbf108e3ca5a3ab739ae4238b5444b0.svg",
+    "static/media/ruble.svg": "/processing24/static/media/ruble.bd65febe932ab7b4982c46e3ea786c42.svg",
+    "static/media/oil-barrel 1.svg": "/processing24/static/media/oil-barrel 1.0190c0aa6e656aa3f675eeed856eaaab.svg",
+    "static/media/user.svg": "/processing24/static/media/user.68c6b4645187583a439713a74f16d8ac.svg",
+    "static/media/phone2.svg": "/processing24/static/media/phone2.93c8a3dc72c287b609712d30817ee111.svg",
+    "index.html": "/processing24/index.html",
+    "static/media/arrow left.svg": "/processing24/static/media/arrow left.a31a57e396a4f63da49c8a4393d6d5dc.svg",
+    "static/media/arrow right.svg": "/processing24/static/media/arrow right.cd6e00367d27e7b4ad3ce9ea41b9e391.svg",
+    "static/media/Vector 3.svg": "/processing24/static/media/Vector 3.7283dfa749a869f51821f363edfa16a5.svg",
+    "static/media/Vector 1.svg": "/processing24/static/media/Vector 1.579725b6f9b716bcbf403383d17aad69.svg",
+    "main.4c06066e.css.map": "/processing24/static/css/main.4c06066e.css.map",
+    "main.d1a6fb70.js.map": "/processing24/static/js/main.d1a6fb70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c06066e.css",
+    "static/js/main.d1a6fb70.js"
+  ]
+}
